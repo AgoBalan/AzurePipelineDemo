@@ -28,3 +28,5 @@ Project is ready to run. Execute following commands and enjoy the automatic web-
 - Run `mvn test`
 
 You can find the test result in `E2EUserJourney\target\surefire-reports\index.html`.
+
+[![CI](https://github.com/AgoBalan/AzurePipelineDemo/actions/workflows/maven.yml/badge.svg)](https://github.com/AgoBalan/AzurePipelineDemo/actions/workflows/maven.yml)
