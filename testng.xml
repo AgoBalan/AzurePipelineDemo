@@ -6,4 +6,19 @@
 			<class name="testcases.mytheresa.NewUserJourney" />
 		</classes>
 	</test> <!-- Test -->
+	<test thread-count="5" name="Test2">
+		<classes>
+			<class name="testcases.mytheresa.NewUserJourney" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test3">
+		<classes>
+			<class name="testcases.mytheresa.NewUserJourney" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="Test4">
+		<classes>
+			<class name="testcases.mytheresa.NewUserJourney" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
