@@ -27,19 +27,21 @@ public class NewUserJourney {
 
 		WebDriver driver = bs.BrowserSettings();
 
-		createAccount(driver);
+		launchGoogle(driver);
 
 		// password change
 		// my account page access
-		MytheresaMyAccountPage map = new MytheresaMyAccountPage(driver);
-		changePassword(driver, map);
-
-		logOut(driver, map);
-
-		driver.close();
+//		MytheresaMyAccountPage map = new MytheresaMyAccountPage(driver);
+//		changePassword(driver, map);
+//
+//		logOut(driver, map);
+//
+//		driver.close();
 
 	}
-
+	private void launchGoogle(WebDriver driver) {
+	driver.get("http://www.google.com");
+	}
 	private void createAccount(WebDriver driver) {
 		// account create
 		// homepage's object access
