@@ -21,4 +21,9 @@
 			<class name="testcases.mytheresa.NewUserJourney" />
 		</classes>
 	</test> <!-- Test -->
+<test thread-count="5" name="Test5">
+<classes>
+	<class name="testcases.mytheresa.NewUserJourney" />
+</classes>
+</test> <!-- Test -->
 </suite> <!-- Suite -->
