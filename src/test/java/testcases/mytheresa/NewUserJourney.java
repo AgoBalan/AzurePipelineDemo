@@ -18,6 +18,10 @@ public class NewUserJourney {
 
 	@Test
 	public void accountCreate() {
+		 String currentDirectory = System.getProperty("user.dir");
+      System.out.println("The current working directory is " + currentDirectory);
+		 String currentDirectory = System.getProperty("user.dir");
+      System.out.println("The current working directory is " + currentDirectory);
 
 		BrowserSetting bs = new BrowserSetting();
 
