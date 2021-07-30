@@ -1,7 +1,7 @@
 # How to run the Test #
 
 **Prerequisite**
-1. Java environment.
+1. Java environment..
 2. Maven 
 
 
