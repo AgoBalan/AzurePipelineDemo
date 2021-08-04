@@ -17,4 +17,4 @@ steps:
       echo $TIER
       echo $TARGET
     displayName: 'Show value as env variable'
-ript'
+
