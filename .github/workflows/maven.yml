@@ -15,7 +15,7 @@ jobs:
         steps:
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
-          id: echo $(env)
+          script: echo $(env)
           with:
             azure-devops-project-url: https://dev.azure.com/jehovabalan/AzureDemo
             azure-pipeline-name: 'AzureDemo-Maven-CI'
