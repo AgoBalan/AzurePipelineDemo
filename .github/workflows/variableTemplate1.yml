@@ -1,0 +1,11 @@
+pool:
+ vmImage: 'ubuntu-latest'
+
+variables:
+ - template: variableGTemplate.yml
+
+steps:
+  - bash: 
+      echo "app $(appname)"
+      echo "ver $(version)"
+    displayName: 'Show value from template'
