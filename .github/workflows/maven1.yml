@@ -1,21 +1,15 @@
-
 # Run this workflow every time a commit is pushed to main or a pull request is opened against main
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches: 
-      - main
-jobs:
-    build:
-        name: Call Azure Pipeline
-        runs-on: ubuntu-latest
-        steps:
-        - name: Azure Pipelines Action
-          uses: Azure/pipelines@v1
-          with:
-            azure-devops-project-url: https://dev.azure.com/jehovabalan/AzureDemo
-            azure-pipeline-name: 'AzureDemo-Maven-CI'
-            azure-devops-token: 'ztdedren4x5jifam7unedpyv7kljggdp3ga2gigvuf7rflutz2eq'
+variables:
+ global_variable: 'global value'
 
+pool:
+ vmImage: 'ubuntu_latest'
+
+jobs:
+  - job: 
+    variables:
+     global_variable: 'local value'
+    steps:
+      - bash: 
+         echo $(global_variable)
+        displayName: 'Run a oneline Script'
