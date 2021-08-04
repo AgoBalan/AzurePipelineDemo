@@ -13,9 +13,9 @@ jobs:
         name: Call Azure Pipeline
         runs-on: ubuntu-latest
         steps:
-        - id: echo $(env)
         - name: Azure Pipelines Action
           uses: Azure/pipelines@v1
+          id: echo $(env)
           with:
             azure-devops-project-url: https://dev.azure.com/jehovabalan/AzureDemo
             azure-pipeline-name: 'AzureDemo-Maven-CI'
