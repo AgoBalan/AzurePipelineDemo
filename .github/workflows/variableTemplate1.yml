@@ -5,7 +5,7 @@ variables:
  - template: variableTemplate.yml
 
 steps:
-  - bash: 
+  - script: 
       echo "app $(appname)"
       echo "ver $(version)"
     displayName: 'Show value from template'
