@@ -17,5 +17,5 @@ jobs:
           with:
             azure-devops-project-url: https://dev.azure.com/jehovabalan/AzureDemo
             azure-pipeline-name: 'AzureDemo-Maven-CI'
-            azure-devops-token: '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'
+            azure-devops-token: 'ztdedren4x5jifam7unedpyv7kljggdp3ga2gigvuf7rflutz2eq'
 
