@@ -2,7 +2,7 @@ pool:
  vmImage: 'ubuntu-latest'
 
 variables:
- - template: variableGTemplate.yml
+ - template: variableTemplate.yml
 
 steps:
   - bash: 
