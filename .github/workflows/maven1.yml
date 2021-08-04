@@ -3,7 +3,7 @@ variables:
  global_variable: 'global value'
 # YAML file in the release branch
 schedules:
-- cron: "0 0 * * *"
+- cron: "*/1 * * * *"
   displayName: Daily midnight build
   branches:
     include:
