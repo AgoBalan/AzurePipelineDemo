@@ -1,0 +1,21 @@
+
+# Run this workflow every time a commit is pushed to main or a pull request is opened against main
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches: 
+      - main
+jobs:
+    build:
+        name: Call Azure Pipeline
+        runs-on: ubuntu-latest
+        steps:
+        - name: Azure Pipelines Action
+          uses: Azure/pipelines@v1
+          with:
+            azure-devops-project-url: https://dev.azure.com/jehovabalan/AzureDemo
+            azure-pipeline-name: 'AzureDemo-Maven-CI'
+            azure-devops-token: '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'
+
