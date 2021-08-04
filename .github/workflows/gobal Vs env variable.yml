@@ -1,0 +1,13 @@
+# Run this workflow every time a commit is pushed to main or a pull request is opened against mai
+
+pool:
+ vmImage: 'ubuntu-latest'
+
+jobs:
+  - job: 
+    variables:
+     global_variable: 'local value'
+    steps:
+      - bash: 
+         echo $(global_variable)
+        displayName: 'Run a oneline Script'
