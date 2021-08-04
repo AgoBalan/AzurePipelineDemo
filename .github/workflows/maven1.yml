@@ -12,4 +12,5 @@ jobs:
     steps:
       - bash: 
          echo $(global_variable)
+         echo $(uiset)
         displayName: 'Run a oneline Script'
