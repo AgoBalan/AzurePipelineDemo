@@ -3,7 +3,7 @@ variables:
  global_variable: 'global value'
 
 pool:
- vmImage: 'ubuntu_latest'
+ vmImage: 'ubuntu-latest'
 
 jobs:
   - job: 
